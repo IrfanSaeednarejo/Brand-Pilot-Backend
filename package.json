@@ -1,0 +1,30 @@
+{
+  "name": "brand-pilot-backend",
+  "version": "1.0.0",
+  "description": "A folder for brand pilot Backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IrfanSaeednarejo/Brand-Pilot-Backend.git"
+  },
+  "author": "Irfan Saeed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IrfanSaeednarejo/Brand-Pilot-Backend/issues"
+  },
+  "homepage": "https://github.com/IrfanSaeednarejo/Brand-Pilot-Backend#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.1",
+    "mongoose-aggregate-paginate-v2": "^1.1.4"
+  }
+}
