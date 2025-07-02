@@ -1,5 +1,5 @@
 import mongoose from 'mongoose'
-import bcrypt from 'bcrypt'
+import bcrypt from 'bcryptjs'
 import validator from 'validator'
 
 
@@ -64,4 +64,4 @@ userSchema.statics.login = async function(email, password) {
   return user
 }
 
-module.exports = mongoose.model('User', userSchema)
+export const User = mongoose.model("User", userSchema)

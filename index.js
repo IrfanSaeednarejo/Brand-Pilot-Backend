@@ -1,5 +1,5 @@
 import dotenv from "dotenv"
-
+import userRoutes from "./routes/user.js"
 import express from "express"
 import mongoose from "mongoose"
 
@@ -18,7 +18,8 @@ app.use((req, res, next) => {
 })
 
 
-// app.use('/api/user', userRoutes)
+
+ app.use('/api/user', userRoutes)
 
 
 mongoose.connect(process.env.MONGO_URI)
